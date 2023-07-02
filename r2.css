@@ -541,15 +541,53 @@ footer a{
 	text-decoration: none;
 	color: lightcoral;
 }
+/* Hamburger menu*/
+#hamburger-icon{
+	margin: auto 0;
+	display: block;
+	cursor: pointer;
+}
+#hamburger-icon div{
+	width: 32px;
+	height: 3px;
+	background-color: white;
+	margin: 6px 0;
+	transition: 0.4s;
+}
+.open .bar1{
+	-webkit-transform: rotate(-45deg) translate(-6px, 6px);
+	transform: rotate(-45deg) translate(-6px, 6px);
+}
+.open .bar2{
+	opacity: 0;
+}
+.open .mobile-menu{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+.mobile-menu{
+	display: block;
+	position: absolute;
+	top: 50px;
+	left: 0;
+	height: calc(100vh - 50px);
+	width: 100%;
+}
+.open .bar3{
+	-webkit-transform: rotate(45deg) translate(-6px, -8px);
+	transform: rotate(45deg) translate(-6px, -8px);
+}
 @media screen and (max-width: 915px){
 	#Home{
 		width: 150%;
-		height: 100vh;
+		height: 120vh;
 	}
 	 .image{
      height: 20rem;
      width: 18rem;
-    margin-top: 170px;
+    margin-top: 65px;
     margin-left: -8%;
   }
    .home{
@@ -570,16 +608,16 @@ footer a{
    }
    #Profile{
    	width: 150%;
-   	height: 150vh;
+   	height: 220vh;
    }
    .pro{
     flex-direction: column;
    }
    .img-hov{
-   	margin-top: -10px;
+   	margin-top: -70px;
    	margin-right: -180px;
    	width: 310px;
-   	height: 350px;
+   	height: 320px;
    }
    .logo{
    	display: inline-flex;
@@ -587,7 +625,7 @@ footer a{
    }
    #Skills{
    	width: 150%;
-   	height: 205vh;
+   	height: 320vh;
    }
    .content{
    	flex-direction: column;
@@ -598,22 +636,22 @@ footer a{
    }
    #Contact{
    	width: 150%;
-   	height: 120vh;
+   	height: 290vh;
    }
    .send{
    	margin-left: 10%;
-   	margin-top: 200px;
+   	margin-top: 810px;
    	flex-direction: column;
    }
    footer{
    	display: flex;
    	align-items: center;
    	justify-content: center;
-   	margin-top: 30%;
+   	margin-top: 60%;
    }
    .social{
    	display: flex;
    	margin-left: 120px;
-   	margin-bottom: -880%;
+   	margin-bottom: -1120%;
    }  
   }
