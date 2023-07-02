@@ -640,7 +640,7 @@ footer a{
    }
    .send{
    	margin-left: 10%;
-   	margin-top: 810px;
+   	margin-top: 700px;
    	flex-direction: column;
    }
    footer{
@@ -652,6 +652,6 @@ footer a{
    .social{
    	display: flex;
    	margin-left: 120px;
-   	margin-bottom: -1120%;
+   	margin-bottom: -1030%;
    }  
   }
