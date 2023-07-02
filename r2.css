@@ -636,25 +636,22 @@ footer a{
    }
    #Contact{
    	width: 150%;
-   	height: 290vh;
+   	height: 280vh;
    }
    .send{
    	margin-left: 10%;
    	margin-top: 810px;
    	flex-direction: column;
-   	position: fixed;
    }
    footer{
    	display: flex;
    	align-items: center;
    	justify-content: center;
    	margin-top: 60%;
-   	position: fixed;
    }
    .social{
    	display: flex;
    	margin-left: 120px;
    	margin-bottom: -1120%;
-   	position: fixed;
    }  
   }
